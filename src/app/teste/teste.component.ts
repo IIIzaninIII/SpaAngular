@@ -1,0 +1,14 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-teste',
+  templateUrl: './teste.component.html',
+  styleUrls: ['./teste.component.css']
+})
+export class TesteComponent {
+
+  users = [
+    {id: 1, name: 'Oppo Find X3 Pro'},
+
+  ]
+}
